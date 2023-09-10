@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void onMapCurrentButtonClic(View view) {
+    public void onMapShowCurrentButtonClick(View view) {
         //フィールドの緯度と経度を元にマップアプリと連携するURI文字列を生成
         String uriStr = "geo:" + _latitude + "," + _longitude;
         //URI文字列からURIオブジェクトを生成
